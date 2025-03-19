@@ -69,7 +69,7 @@ def main():
 
 # ================================================= MAIN =================================================
 
-TOKEN = os.environ.get('"TELEGRAM_BOT_TOKEN"')
+TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
 
 if __name__ == "__main__":
     main()
