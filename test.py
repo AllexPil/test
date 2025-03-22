@@ -92,4 +92,5 @@ class Stars_bot:
 # ================================================= MAIN =================================================
 
 if __name__ == "__main__":
+    TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
     Stars_bot(TOKEN)
